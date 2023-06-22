@@ -18,7 +18,7 @@ void f_add(stack_t **head, unsigned int count)
 	}
 	if (len < 2)
 	{
-		fprintf(stderr, "L%d: can not add to stack, stack too short\n", count);
+		fprintf(stderr, "L%d: can't add stack, stack too short\n", count);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
